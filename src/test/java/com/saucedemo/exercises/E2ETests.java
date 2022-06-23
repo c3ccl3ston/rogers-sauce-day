@@ -12,7 +12,7 @@ public class E2ETests extends SauceBaseTest {
 
     // Here's the first test to get you started. Try to run it
     @Test()
-    public void appRenders() {
+    public void pageRenders() {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.visit();
         assertTrue(loginPage.isDisplayed());
@@ -50,7 +50,7 @@ public class E2ETests extends SauceBaseTest {
     }
 
     /*
-     * Don't do or look at the test below until the atomic tests section
+     * Don't look at the test below until the atomic tests section
      */
     @Test()
     @Ignore("Ignoring until atomic tests section")

@@ -67,8 +67,8 @@ We will mostly focus on functional web testing but will discuss other things alo
 
 > ℹ️ &nbsp; Gitpod lets you run an entire Dev environment from a browser! You can use this approach if you don't know how to setup a local Java environment.
 
-1. Once the Gitpod.io URL is loaded, you will need to sign in with the GitHub account you created earlier
-2. Once the development environment is loaded, you should see 'Ready to test!' in the Terminal window in the lower portion of the window, run the following commands in that Terminal to set your `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY`:
+- Sign in to Gitpod with the GitHub credentials
+- Once the development environment is loaded, you should see 'Ready to test!' in the Terminal window in the lower portion of the window, run the following commands in that Terminal to set your `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY`:
 
 > ℹ️ &nbsp; You can get your Sauce Labs Username and Access Key by going to the [Sauce Labs user settings page](https://app.saucelabs.com/user-settings)
 
@@ -89,7 +89,7 @@ echo $SAUCE_ACCESS_KEY
 Run example tests
 
 ```bash
-mvn test -Dtest=E2ETests -X
+mvn test -Dtest=E2ETests
 ```
 
   <details>
@@ -97,24 +97,32 @@ mvn test -Dtest=E2ETests -X
       <strong>Click here</strong> to see an example console output.
     </summary>
 
-        Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.305 sec
-
-        Results :
-
-        Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
-
-        [INFO] ------------------------------------------------------------------------
-        [INFO] BUILD SUCCESS
-        [INFO] ------------------------------------------------------------------------
-        [INFO] Total time:  56.063 s
-        [INFO] Finished at: 2021-11-03T16:03:20-04:00
-        [INFO] ------------------------------------------------------------------------
+```bash
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 8.073 s - in com.saucedemo.exercises.E2ETests
+[INFO]
+[INFO] Results:
+[INFO]
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 3
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.663 s
+[INFO] Finished at: 2022-06-23T01:56:21Z
+[INFO] ------------------------------------------------------------------------
+```
 
   </details>
 
-### ✅ 👏 Environment setup is complete if tests passed
+  <div>&nbsp;</div>
+
+### ✅ 👏 &nbsp; Environment setup is complete if tests passed
+
+<div>&nbsp;</div>
 
 ---
+
+<div>&nbsp;</div>
 
 ## Key
 
