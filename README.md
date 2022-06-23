@@ -118,7 +118,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 8.073 s - in com
 
 ### ✅ 👏 &nbsp; Environment setup is complete if tests passed
 
-<span>&nbsp;</span>
+---
 
 ## Key
 
