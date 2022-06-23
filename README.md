@@ -120,8 +120,6 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 8.073 s - in com
 
 <span>&nbsp;</span>
 
----
-
 ## Key
 
 💡 this is a tip
