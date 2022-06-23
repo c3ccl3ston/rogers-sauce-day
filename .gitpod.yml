@@ -2,9 +2,7 @@
 # We also run 'mvn test' without actually running the tests to ensure all dependencies are fetched.
 # in 'command' we have bash-code that is executen in the Gitpod Terminal View when the user opens a workspace.
 tasks:
-  - before: |
-      cd workshop
-    init: |
+  - init: |
       mvn clean install -DskipTests=true
       clear
       echo 'Ready to start!'
