@@ -48,7 +48,9 @@ We will mostly focus on functional web testing but will discuss other things alo
 <img src="./imgs/chris.jpg" alt="Chris Eccleston profile photo" width="200"/>
 
 - 🏢 &nbsp; I’m a Solutions Architect at Sauce Labs
+- 🌱 &nbsp; I’m currently working on [Sauce Bindings](https://github.com/saucelabs/sauce_bindings)
 - 😄 &nbsp; Pronouns: he/him
+- 🏠 &nbsp; Fun fact: I'm a home automation enthusiast
 
 📫 &nbsp; Links:
 <span></span>
