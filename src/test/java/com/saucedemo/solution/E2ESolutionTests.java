@@ -30,7 +30,7 @@ public class E2ESolutionTests extends SauceBaseTest {
     }
 
     @Test()
-    public void appRenders() {
+    public void pageRenders() {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.visit();
         assertTrue(loginPage.isDisplayed());
