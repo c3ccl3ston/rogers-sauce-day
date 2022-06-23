@@ -12,6 +12,9 @@ We will mostly focus on functional web testing but will discuss other things alo
 ## 🧠 &nbsp; You will learn:
 
 - Use industry-standard best practices
+  - [Element Locating Strategies](https://docs.saucelabs.com/web-apps/automated-testing/selenium/#finder-methods)
+  - [Page Object Model](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
+  - [Sauce Bindings](https://opensource.saucelabs.com/sauce_bindings/)
 - Create functional browser tests using Selenium
 - Automatically get robust test reports with logs + videos
 
